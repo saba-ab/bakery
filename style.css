@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #171b1b;
+  padding: 20px;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  margin-right: 700px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.header li {
+  margin-right: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.logo {
+  margin-left: 120px;
+}
+
+.button {
+  margin-right: 60px;
+  width: 100px;
+}
+
+.button button {
+  width: 110px;
+  height: 45px;
+  background-color: #171b1b;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+  border-radius: 2px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.container {
+  background-color: #171b1b;
+  display: flex;
+}
+
+.main_info {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+  width: 800px;
+  margin-left: 50px;
+  padding-top: 250px;
+  color: white;
+}
+
+.small_header {
+  width: 600px;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
+.main_header {
+  width: 700px;
+  font-size: 56px;
+  font-family: "Ultra", serif;
+  padding: 20px 0px 20px 0px;
+}
+
+.info {
+  width: 600px;
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  font-weight: 300;
+}
+
+.ilustration {
+  display: flex;
+  position: relative;
+  width: 300px;
+  padding-top: 200px;
+  margin-top: 200px;
+}
+
+.bread {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 100%;
+  height: 100%;
+}
+
+.circle {
+  position: absolute;
+  top: 20%;
+  left: 70%;
+  width: 100%;
+  height: 100%;
+}
+
+.form {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.lines {
+  position: absolute;
+  top: 20%;
+  left: 70px;
+  width: 100%;
+  height: 100%;
+}
+
+.down {
+  /* position: relative; */
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(192, 157, 5);
+  border-radius: 50%;
+  position: absolute;
+  top: 730px;
+  right: 750px;
+  align-items: center;
+  justify-content: center;
+}
+
+.down a {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
